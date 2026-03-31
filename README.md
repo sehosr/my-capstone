@@ -1,6 +1,8 @@
 # my-capstone
 A capstone project applying data cleaning, feature engineering, EDA, and math concepts on the Ames Housing dataset to understand house prices.
 
+
+
 ## Phase 1 — Data Cleaning
 During this phase, I prepared the dataset for analysis by handling missing values using median for numerical columns and "Unknown" for categorical ones. I also corrected data types, such as converting categorical codes into strings. To manage extreme values, I capped outliers in SalePrice at the 99th percentile. Finally, I verified the data quality by checking for duplicates and ensuring there were no missing or invalid values in key columns.
 
